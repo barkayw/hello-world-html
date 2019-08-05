@@ -2,7 +2,7 @@
 
 sudo yum update -y
 sudo yum install -y httpd
-sudo echo -c 'cat << EOF > /var/www/index.html
+sudo bash -c 'cat << EOF > /var/www/html/index.html
 
 <HTML>
    <HEAD>
